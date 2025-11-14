@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class DataAdapter (private val mList: List<ItemViewModel>) : RecyclerView.Adapter<DataAdapter.ViewHolder>()  {
 
-    private var onClickListener: View.OnClickListener? = null
+    private var onClickListener: OnClickListener? = null
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
